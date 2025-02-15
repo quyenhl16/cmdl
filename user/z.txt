@@ -1,0 +1,6 @@
+# Adding a User in Linux and Creating Home Directory
+sudo useradd -m <username>
+Ex: sudo useradd -m admin
+# Adding a User With UID and GID
+sudo useradd -g <gid> -u <uid> <username> // gid must exist (sudo groupadd -g <gid> <groupname>)
+Ex: sudo useradd -g 2025 -u 2025 admin
